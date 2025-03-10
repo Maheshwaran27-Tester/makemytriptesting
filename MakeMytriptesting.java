@@ -22,11 +22,11 @@ public class MakeMytriptesting {
 		        driver.manage().window().maximize();
 		        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
-		        String phoneNumber = "8925771744"; // Replace with your phone number
-		        String password = "Mahesh27112@"; // Replace with your password
-		        String fromCity = "Delhi"; // Replace with your departure city
-		        String toCity = "Mumbai"; // Replace with your destination city
-		        LocalDate departureDate = LocalDate.of(2025, 3, 15); // Replace with your departure date
+		        String phoneNumber = "8925771747";
+		        String password = "Mahesh27112@";
+		        String fromCity = "Delhi";
+		        String toCity = "Mumbai";
+		        LocalDate departureDate = LocalDate.of(2025, 3, 15);
 
 		        try {
 		            driver.get("https://www.makemytrip.com/");
